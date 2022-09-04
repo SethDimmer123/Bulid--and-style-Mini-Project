@@ -109,8 +109,8 @@ img{
 
 .section__description--wrapper{ /*This is the parent element of the about section*/
     width:60%;
-    margin-top: 100px;
     padding: 0 24px;
+
 }
 
 .section__description--para{
@@ -123,6 +123,23 @@ margin-bottom: 24px;
 /* 
 
 DISCORD
+
+*/
+
+
+#discord{
+    background-color:#cdfeff;
+    padding: 48px 0;
+}
+
+.discord__img{ /*15:01*/
+    width:40%;
+}
+
+
+/* 
+
+CONTACT
 
 */
 

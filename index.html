@@ -5,12 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
     <section>
       <nav>
-        <img src="./assets/FES.svg" />
+        <img src="./assets/FES.svg" class="logo" alt="" />
         <ul>
           <li><a href="#about">About</a></li>
           <li><a href="#discord">Discord</a></li>
@@ -18,37 +18,42 @@
         </ul>
       </nav>
       <header>
-        <div>
-          <h1>Best place to learn frontend</h1>
-          <p>
-            Go from being an absolute beginner to pro with a simplified process
-          </p>
-          <button>Start Now</button>
+        <div class="row">
+          <div>
+            <h1>Best place to learn frontend</h1>
+            <p class="subheader">
+              Go from being an absolute beginner to pro with a simplified
+              process
+            </p>
+            <button>Start Now</button>
+          </div>
+          <figure>
+            <img src="./assets/laptop.png" alt="Home page image" />
+          </figure>
         </div>
-        <figure>
-          <img src="./assets/laptop.png" alt="Home page image" />
-        </figure>
       </header>
     </section>
 
     <main>
       <section id="about">
         <h2>About</h2>
-        <div>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem hic
-            cum ad dicta alias eum!
-          </p>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse,
-            nemo. Possimus qui reiciendis repellat odit maxime laudantium
-            delectus porro expedita error, vero quam voluptas suscipit in, non
-            aut placeat laborum.
-          </p>
+        <div class="section__description">
+          <div class="section__description--wrapper">
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem hic
+              cum ad dicta alias eum! Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, atque?
+            </p>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse,
+              nemo. Possimus qui reiciendis repellat odit maxime laudantium
+              delectus porro expedita error, vero quam voluptas suscipit in, non
+              aut placeat laborum.
+            </p>
+          </div>
+          <figure class="about__img--wrapper">
+            <img src="./assets/about.jpg" alt="" />
+          </figure>
         </div>
-        <figure>
-          <img src="./assets/about.jpg" alt="" />
-        </figure>
       </section>
 
       <section id="discord">
@@ -71,27 +76,27 @@
           </p>
         </div>
       </section>
-      
+
       <section id="contact">
         <h2>Contact</h2>
         <form action="">
-            <span>Email</span>
-            <input type="text" placeholder="jane@example.com">
-            <span>Message</span>
-            <textarea type="text" plaxeholder="jane@example.com"></textarea>
+          <span>Email</span>
+          <input type="text" placeholder="jane@example.com" />
+          <span>Message</span>
+          <textarea type="text" plaxeholder="jane@example.com"></textarea>
         </form>
         <button>Sumbit</button>
       </section>
     </main>
     <footer>
-        <img src="./assets/FES.svg">
-        <div>
-            <a href="#about">About</a>
-            <a href="#discord">Discord</a>
-            <a href="#contact">Contact</a>
-            <a href="#">Courses</a>
-        </div>
-        <p>copyright Frontend Simplified</p>
+      <img src="./assets/FES.svg" />
+      <div>
+        <a href="#about">About</a>
+        <a href="#discord">Discord</a>
+        <a href="#contact">Contact</a>
+        <a href="#">Courses</a>
+      </div>
+      <p>copyright Frontend Simplified</p>
     </footer>
   </body>
 </html>

@@ -83,6 +83,7 @@ ABOUT
 
 #about{
     padding:48px 0;
+    background-color: #f8ffdc;
 }
 
 h2{
@@ -98,12 +99,31 @@ h2{
 
 .about__img--wrapper{
     width:40%;
+    padding:0 24px;
 }
 
 img{
     width:100%;
 }
 
-.section__description--wrapper{
+
+.section__description--wrapper{ /*This is the parent element of the about section*/
     width:60%;
+    margin-top: 100px;
+    padding: 0 24px;
 }
+
+.section__description--para{
+font-size: 20px;
+line-height: 1.5;
+margin-bottom: 24px;
+}
+
+
+/* 
+
+DISCORD
+
+*/
+
+

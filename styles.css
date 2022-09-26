@@ -8,3 +8,28 @@
 }
 
 
+nav{
+  height:70px;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 16px;/*this is so my nav is not touching the sides*/
+}/*0 on top and bottom 16px left and right*/
+
+.logo{
+  width:300px;
+}
+
+ul{
+  display:flex;
+  list-style-type: none;
+  padding: 16px;
+}
+
+li{
+  padding-left: 16px;
+}
+
+a{
+  text-decoration: none;
+}

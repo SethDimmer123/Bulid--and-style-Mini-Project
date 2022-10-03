@@ -19,7 +19,7 @@ nav{
 
 header{
   background-color: #eadcff;
-  height: calc(100vh - 70px);
+  height: calc(140vh - 70px);
   padding: 24px;
   display:flex;
   align-items: center;
@@ -41,7 +41,8 @@ button{
   padding:8px 16px;
   border:none;
   font-size:24px;
-  border-radius: 16px;
+  cursor: pointer;
+  margin-bottom: 24px;
 }
 
 .logo{
@@ -156,6 +157,40 @@ input,textarea{
   font-size: 20px;
   padding: 6px 12px;
 }
+
+
+
+/*
+
+FOOTER
+
+*/
+
+footer{
+background-color:#aaf5ff;
+display:flex;
+flex-direction: column;
+align-items: center;
+padding: 48px 0;
+}
+
+.footer__logo{
+  max-width:480px;
+  margin-bottom:16px;
+}
+
+.footer__links{
+margin-bottom: 32px;
+}
+
+.footer__link{
+  padding: 0 16px;
+}
+
+
+
+
+
 
 
 

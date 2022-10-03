@@ -18,59 +18,66 @@
         </ul>
       </nav>
       <header><!--this is the parent element-->
-        <div>
-          <h1>Best place to learn Frontend</h1>
-          <p class="subheader"> Go from absolute beginner to pro with a simplfied process</p>
-          <button>Start Now</button>
+        <div class="row">
+          <div>
+            <h1>Best place to learn Frontend</h1>
+            <p class="subheader"> Go from absolute beginner to pro with a simplfied process</p>
+            <button>Start Now</button>
+          </div>
+          <figure>
+            <img src="./assets/laptop.png" alt="homepage image" />
+          </figure>
         </div>
-        <figure>
-          <img src="./assets/laptop.png" alt="homepage image" />
-        </figure>
       </header>
     </section>
     <main>
       <section id="about">
         <h2>About</h2>
-        <div>
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque
-            quaerat vitae excepturi explicabo reiciendis sapiente.
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit
-            eius molestias obcaecati, voluptate eos dicta.
-          </p>
+        <div class="section__description">
+          <div class="section__description--wrapper">
+            <p class="section__description--para">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque
+              quaerat vitae excepturi explicabo reiciendis sapiente.
+            </p>
+            <p class="section__description--para">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit
+              eius molestias obcaecati, voluptate eos dicta.
+            </p>
+          </div>
+          <figure class="about__img--wrapper">
+            <img src="./assets/about.jpg" />
+          </figure>
         </div>
-        <figure>
-          <img src="./assets/about.jpg" />
-        </figure>
       </section>
 
       <section id="discord">
         <h2>Discord</h2>
-        <figure>
-          <img src="./assets/discord.png" />
-        </figure>
-        <div>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste,
-            reprehenderit?
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
-            magni illo eum veniam animi expedita.
-          </p>
+        <div class="section__description">
+          <figure class="about__img--wrapper">
+            <img src="./assets/discord.png" />
+          </figure>
+          <div class="section__description--wrapper">
+            <p class="section__description--para">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste,
+              reprehenderit?
+            </p>
+            <p class="section__description--para">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
+              magni illo eum veniam animi expedita.
+            </p>
+          </div>
         </div>
       </section>
 
       <section id="contact">
         <h2>Contact</h2>
-        <form action="">
+        <form action=""><!--this is the parent-->
           <span>Email</span>
-          <input type="text" placeholder="jane@example.com">
+          <input type="email" placeholder="jane@example.com">
           <span>Message</span>
           <textarea type="text" placeholder="jane@example.com"></textarea>
         </form>
+        <button>Contact Us!</button>
       </section>
     </main>
 
